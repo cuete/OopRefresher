@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopRefresher", "OopRefresher\OopRefresher.csproj", "{FAEAE21C-1466-4AB0-8957-AF81D1B42239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_OopRefresher", "UnitTest_OopRefresher\UnitTest_OopRefresher.csproj", "{9169A6F4-F54C-492F-BEB7-4850DA50B721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEAE21C-1466-4AB0-8957-AF81D1B42239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEAE21C-1466-4AB0-8957-AF81D1B42239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEAE21C-1466-4AB0-8957-AF81D1B42239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEAE21C-1466-4AB0-8957-AF81D1B42239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9169A6F4-F54C-492F-BEB7-4850DA50B721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9169A6F4-F54C-492F-BEB7-4850DA50B721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9169A6F4-F54C-492F-BEB7-4850DA50B721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9169A6F4-F54C-492F-BEB7-4850DA50B721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C88C278F-1014-4BB0-80BA-55DC7F65477C}
+	EndGlobalSection
+EndGlobal
