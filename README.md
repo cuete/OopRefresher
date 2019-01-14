@@ -1,10 +1,10 @@
 # OopRefresher
 Refresher code and study guide for Object Oriented Programming
 By [Alejandro Echeverria](https://github.com/cuete)
-(work in proigress)
+(work in progress)
 
-##Guide outline:
-###Basic concepts: 
+## Guide outline:
+### Basic concepts: 
 * Classes, objects, structures
 * Access modifiers
 * Properties, methods and events
@@ -18,7 +18,7 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Encapsulation
 * Polymorphism
 
-###Collections and data structures
+### Collections and data structures
 * Data types
 * Array
 * Linked list
@@ -27,27 +27,27 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Hashtable/Dictionary
 * Binary tree
 
-###Programming concepts
+### Programming concepts
 * LINQ
 * Lambda expressions
 * Serialization: XML, JSON
 * Attributes
 * Memory management: heap and stack
 
-###Databases
+### Databases
 * Structured vs. unstructured
 * SQL commands and concepts
 * Performance concepts
 * Cloud
 
-###Big O
+### Big O
 
-###Design patterns
+### Design patterns
 
-###Networks
+### Networks
 * OSI model
 * Protocols
 
-###Cloud and serverless
+### Cloud and serverless
 
-###Security
+### Security
