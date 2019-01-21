@@ -1,38 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+using OopRefresher.Interfaces;
+using OopRefresher.Helpers;
 
 namespace OopRefresher.Classes
-{    
-    /// <summary>
-    /// Derived class definition
-    /// </summary>
-    public class HighMountain : Mountain
+{
+    public class SmallMountain : IMountains<SmallMountain>
     {
-        public HighMountain(string name) : base(name)
-        {
-            this.name = base.name;
-            this.yds_class = YDS_Class.Class1;
-            this.yds_grade = YDS_Grade.I;
-            this.camps = 0;
-        }
-        public YDS_Class yds_class { get; set; }
-        public YDS_Grade yds_grade { get; set; }
-        public int camps { get; set; }
-    }
-    
-    /// <summary>
-    /// Base class definition
-    /// </summary>
-    public class Mountain
-    {
-        //Constructor
-        public Mountain(string name)
+        public SmallMountain(string name)
         {
             this.name = name;
             this.altitude = 0;
@@ -41,14 +16,61 @@ namespace OopRefresher.Classes
             this.timetoclimb = null;
             this.notes = null;
         }
+        public SmallMountain() { }
         public string name { get; set; }
         public int altitude { get; set; }
         public Coords coordinates { get; set; }
         public DateTime? dateclimbed { get; set; }
         public TimeSpan? timetoclimb { get; set; }
         public string notes { get; set; }
+
+        public void AddItem(List<SmallMountain> mountains, SmallMountain mountain)
+        {
+            mountains.Add(mountain);
+            string json = GenericMethods.SerializeToJson(mountains);
+            GenericMethods.UpdateFile(json, "mountains.json");
+        }
+
+        public void EditItem(List<SmallMountain> mountains, string name)
+        {
+            //Implement edit logic
+        }
+
+        public void DeleteItem(List<SmallMountain> mountains, string name)
+        {
+            //Implement delete logic
+        }
+
+        public SmallMountain GetItem(List<SmallMountain> mountains, string name)
+        {
+            SmallMountain mountain = new SmallMountain(name);
+            //Implement search logic
+            return mountain;
+        }
+
+        public void ListItems(List<SmallMountain> mountains)
+        {
+            //Implement show logic
+        }
     }
-    
+
+    /// <summary>
+    /// Update this to use IMountain interface
+    /// </summary>
+    //public class HighMountain : Mountain
+    //{
+    //    public HighMountain(string name) : base(name)
+    //    {
+    //        this.name = base.name;
+    //        this.yds_class = YDS_Class.Class1;
+    //        this.yds_grade = YDS_Grade.I;
+    //        this.camps = 0;
+    //    }
+    //    public YDS_Class yds_class { get; set; }
+    //    public YDS_Grade yds_grade { get; set; }
+    //    public int camps { get; set; }
+    //}
+
     /// <summary>
     /// Struct definition
     /// </summary>
@@ -61,13 +83,13 @@ namespace OopRefresher.Classes
             this.lon = lon;
         }
     }
-    
+
     /// <summary>
     /// Enumerator definition
     /// </summary>
     public enum YDS_Class : int
     {
-        Class1 = 1, Class2= 2, Class3 = 3, Class4 = 4, Class5 = 5
+        Class1 = 1, Class2 = 2, Class3 = 3, Class4 = 4, Class5 = 5
     }
     public enum YDS_Grade
     {

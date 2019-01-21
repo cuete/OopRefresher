@@ -3,9 +3,9 @@ Refresher code and study guide for Object Oriented Programming
 By [Alejandro Echeverria](https://github.com/cuete)
 (work in progress)
 
-## Guide outline:
+## Guide outline
 
-### Basic concepts: 
+### Basic concepts
 * Classes, objects, structures
 * Access modifiers
 * Properties, methods and events
