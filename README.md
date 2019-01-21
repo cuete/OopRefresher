@@ -3,8 +3,6 @@ Refresher code and study guide for Object Oriented Programming
 By [Alejandro Echeverria](https://github.com/cuete)
 (work in progress)
 
-## Guide outline
-
 ### Basic concepts
 * Classes, objects, structures
 * Access modifiers
@@ -14,7 +12,6 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Generics
 * Interfaces
 * Delegates
-
 * Inheritance
 * Encapsulation
 * Polymorphism

@@ -5,7 +5,7 @@ using OopRefresher.Helpers;
 
 namespace OopRefresher.Classes
 {
-    public class SmallMountain : IMountains<SmallMountain>
+    public class SmallMountain : IItem<SmallMountain>
     {
         public SmallMountain(string name)
         {

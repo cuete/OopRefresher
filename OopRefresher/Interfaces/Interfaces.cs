@@ -2,7 +2,7 @@
 
 namespace OopRefresher.Interfaces
 {
-    interface IMountains<T>
+    interface IItem<T>
     {
         void AddItem(List<T> list, T item);
         void ListItems(List<T> list);
