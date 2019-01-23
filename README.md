@@ -43,6 +43,8 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Memory management: heap and stack
 * Multithreading
 * Exception handling
+* Sorting algotihms
+* Big-O analysis
 
 ### Databases
 * Structured vs. unstructured
