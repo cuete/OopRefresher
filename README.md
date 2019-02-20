@@ -27,7 +27,7 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Linked list
 * Queue
 * Stack
-* Hashtable/Dictionary
+* Hashtable/Dictionary, collision management
 * Binary tree
 * Binary search tree
 * Graph
@@ -35,36 +35,63 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Trie
 
 ### Programming concepts
-* Loops, switch
+* Recursion
 * LINQ
 * Lambda expressions
 * Serialization: XML, JSON
 * Attributes
 * Memory management: heap and stack
-* Multithreading
+* Threads and locks, multithreading, deadlocks
 * Exception handling
-* Sorting algotihms
+* Testing
 * Big-O analysis
+
+### Algorithms
+* Math and logic puzzles
+* Bit operations
+* Recursion, iteration
+* Sort
+* Search
+* Advanced algorithms
 
 ### Databases
 * Structured vs. unstructured
-* SQL commands and concepts
+* SQL syntax
+* NoSQL
+* Design concepts
 * Performance concepts
 * Cloud
+* Security
 
 ### Big O
 * Asymptotic analysis of algorithm complexity
 
-### Design patterns
+### Design
+* Patterns: Singleton
+* Patterns: Factory
+* MVC design
+* Design and scalability
+* Architecture concepts
+* UML diagram types
+
+### Security
+* XSS
+* Injection
+* Session highjacking
+* Insecure access
+* https://www.geeksforgeeks.org/is-your-web-application-secure-enough-think-again/
+
+### Cloud and serverless
+* Design
+* Use cases
+* Performance
+* Constraints
 
 ### Networks
 * OSI model
 * Protocols
 
-### Cloud and serverless
-* Use cases
-* Performance
-* Constraints
-
-### Security
-* XSS, injection, etc.
+### Other
+* DevOps
+* Agile
+* Project Management
