@@ -33,7 +33,24 @@ namespace OopRefresher.Classes
 
         public void EditItem(List<SmallMountain> mountains, string name)
         {
-            //Implement edit logic
+            SmallMountain mountain = mountains.Find(x => x.name.Contains(name));
+            Type type = mountain.GetType();
+            foreach (var p in type.GetProperties())
+            {
+                Console.WriteLine($"{p.Name} - {p.GetValue(mountain)} ({p.PropertyType})");
+                try
+                {
+                    var input = Console.ReadLine();
+                    p.SetValue(mountain, Convert.ChangeType(input, p.PropertyType));                    
+                }
+                catch (Exception e)
+                {
+
+                    Console.WriteLine($"Exception {e.Message} - {e.StackTrace} ");
+                }
+            }
+            string json = GenericMethods.SerializeToJson(mountains);
+            GenericMethods.UpdateFile(json, "mountains.json");
         }
 
         public void DeleteItem(List<SmallMountain> mountains, string name)

@@ -65,6 +65,7 @@ namespace OopRefresher
                 default:
                     throw new ArgumentException($"Invalid argument exception: {operation}");
             }
+            Console.ReadKey();
         }
     }
 }
