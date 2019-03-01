@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OopRefresher.Interfaces
+namespace OopRefresher
 {
     interface IItem<T>
     {

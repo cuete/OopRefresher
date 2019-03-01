@@ -5,10 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using OopRefresher.Classes;
-using OopRefresher.Interfaces;
 
-namespace OopRefresher.Helpers
+namespace OopRefresher
 {
     class GenericMethods
     {

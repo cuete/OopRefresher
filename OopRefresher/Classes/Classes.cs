@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using OopRefresher.Interfaces;
-using OopRefresher.Helpers;
 
-namespace OopRefresher.Classes
+namespace OopRefresher
 {
+    /// <summary>
+    /// Small mountain base class
+    /// </summary>
     public class SmallMountain : IItem<SmallMountain>
     {
         public SmallMountain(string name)
@@ -70,23 +71,6 @@ namespace OopRefresher.Classes
             //Implement show logic
         }
     }
-
-    /// <summary>
-    /// Update this to use IMountain interface
-    /// </summary>
-    //public class HighMountain : Mountain
-    //{
-    //    public HighMountain(string name) : base(name)
-    //    {
-    //        this.name = base.name;
-    //        this.yds_class = YDS_Class.Class1;
-    //        this.yds_grade = YDS_Grade.I;
-    //        this.camps = 0;
-    //    }
-    //    public YDS_Class yds_class { get; set; }
-    //    public YDS_Grade yds_grade { get; set; }
-    //    public int camps { get; set; }
-    //}
 
     /// <summary>
     /// Struct definition

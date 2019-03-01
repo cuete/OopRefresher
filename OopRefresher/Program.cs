@@ -6,9 +6,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using OopRefresher.Classes;
-using OopRefresher.Interfaces;
-using OopRefresher.Helpers;
 
 namespace OopRefresher
 {
