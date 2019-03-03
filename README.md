@@ -18,24 +18,27 @@ By [Alejandro Echeverria](https://github.com/cuete)
 
 ### Collections and data structures
 * Data types
-* Variable types
+    * Value types
+    * Reference types
 * Operators
 * Boxing and unboxing
 * Parameters
 * Casting
-* Array
-* Linked list
-* Queue
-* Stack
-* Hashtable/Dictionary, collision management
-* Binary tree
-* Binary search tree
+* Arrays
+* Linked lists
+* Queues
+* Stacks
+* Hash Tables / Hash Sets
+    * Collision management
+* Binary trees
+* Binary search trees
 * Graph
+    * Traversing
 * Matrix
-* Trie
+* Tries
 
 ### Programming concepts
-* Recursion
+* Recursion vs iteration
 * LINQ
 * Lambda expressions
 * Serialization: XML, JSON
@@ -44,12 +47,19 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Threads and locks, multithreading, deadlocks
 * Exception handling
 * Testing
-* Big-O analysis
+    * Unit testing
+    * Perfomance
 
 ### Algorithms
+* Big-O analysis
 * Math and logic puzzles
+* Problems
+    * Arrays
+    * linked lists
+    * Trees/graphs
+    * Stacks and queues
 * Bit operations
-* Recursion, iteration
+* Recursion and iteration examples
 * Sort
 * Search
 * Advanced algorithms
@@ -63,13 +73,12 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Cloud
 * Security
 
-### Big O
-* Asymptotic analysis of algorithm complexity
-
 ### Design
-* Patterns: Singleton
-* Patterns: Factory
+* Patterns
+    * Singleton
+    * Factory
 * MVC design
+* Serverless design patterns
 * Design and scalability
 * Architecture concepts
 * UML diagram types
@@ -81,12 +90,6 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * Insecure access
 * https://www.geeksforgeeks.org/is-your-web-application-secure-enough-think-again/
 
-### Cloud and serverless
-* Design
-* Use cases
-* Performance
-* Constraints
-
 ### Networks
 * OSI model
 * Protocols
@@ -95,3 +98,9 @@ By [Alejandro Echeverria](https://github.com/cuete)
 * DevOps
 * Agile
 * Project Management
+* Behavioral questions
+    * What are your weaknesses?
+    * Challenges you've faced
+    * Mistakes you've made
+    * Projects you've enjoyed
+    * Conflict resolution
